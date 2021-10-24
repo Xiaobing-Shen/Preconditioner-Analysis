@@ -1,0 +1,20 @@
+1
+'./small.rb' 'small.rb' 
+
+
+
+--------------------
+put the number of matrices first followed by the paths and a short title
+Example:
+
+10
+'/homes/sp15/usr/project/Matrix-LS/MatMarket-LS/illc1850.rra' 'illc1850.rra'
+'/homes/sp15/usr/project/Matrix-LS/MatMarket-LS/well1850.rra' 'well1850.rra'
+'/homes/sp15/usr/project/Matrix-LS/animal/HB/small2.hb' 'small2.hb'
+'/homes/sp15/usr/project/Matrix-LS/animal/HB/medium2.hb' 'medium2.hb'
+'/homes/sp15/usr/project/Matrix-LS/animal/HB/large.hb' 'large.hb'
+'/homes/sp15/usr/project/Matrix-LS/animal/HB/large2.hb' 'large2.hb'
+'/homes/sp15/usr/project/Matrix-LS/animal/HB/very.hb' 'very.hb'
+'/homes/sp15/usr/project/Matrix-LS/animal/HB/very2.hb' 'very2.hb'
+'/homes/sp15/usr/project/Matrix-LS/mesh/M15994.hb' 'M15994'
+'/homes/sp15/usr/project/Matrix-LS/mesh/M38384.hb' 'M38384'

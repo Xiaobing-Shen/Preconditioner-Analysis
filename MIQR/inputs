@@ -1,0 +1,12 @@
+11        # nparam    = number of tests for each matrix
+0.3       # tol_level = tolerance for stopping MQR, typical 0.20
+4         # maxlvl    = maximal levels allowed, typical 4
+0.00      # tol_cos   = tolerance for orthogonal, typical 0.03
+0.01      # tol_cos_adaptive = increment for each additional level
+0.02      # tol_delta = increment for the orthogonal threshold after each test
+0.01      # tol_drop  = tolerance for dropping small terms
+6.0       # lfil      = up to lfil*(nnz/n) of fills allowed for each column
+2000      # maxits    = maxits in outer fgmres. 
+1.0e-8    # tol_its   = tolerance for stopping iteration
+
+# tol_level: stop MQR if the reduced size < tol_level * previous size

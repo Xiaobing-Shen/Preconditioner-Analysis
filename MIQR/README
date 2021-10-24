@@ -1,0 +1,30 @@
+MIQR: a multilevel incomplete QR preconditioner for large sparse
+least-squares problems
+
+-----------------------------------------------------------------------
+
+The main program  reads a list of matrices [file:  matfile] and a list
+of options [file: inputs] and executes CGNR + preconditioned with MIQR
+for a number of cases [see input file/]
+
+The example provided  is from the animal breeding  example -- obtained
+from CERFACS. All matrices are in Harwell-boeing format..
+
+Code written by Na Li -- 
+
+-----------------------------------------------------------------------
+
+Abstract:
+
+The algorithm builds the factorization by exploiting structural orthogonality
+in general sparse matrices. At any given step, the algorithm finds an
+independent set of columns, i.e., a set of columns that have orthogonal
+patterns. The other columns are then block orthogonalized against columns of
+the independent set and the process is repeated recursively for a certain
+number of levels on these remaining columns. The final level matrix is
+processed with a standard QR or Incomplete QR factorization. Dropping
+strategies are employed throughout the levels in order to maintain a good
+level of sparsity. A few improvements to this basic scheme are explored.
+Among these is the relaxation of the requirement of independent sets of
+columns. 
+
